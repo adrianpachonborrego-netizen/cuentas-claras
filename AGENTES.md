@@ -13,7 +13,7 @@ Sin anuncios. Las calculadoras y los ejemplos propios son lo que hace que Google
 | Planta | Agente | Cuándo trabaja | Qué hace | Instrucciones |
 |---|---|---|---|---|
 | 5 | 📊 Analista | Cada 48 h (21:07) | Lee las métricas, decide qué funciona y reordena las prioridades | `agentes/analista.md` |
-| 4 | 🏭 Fábrica de productos | Domingos alternos (11:17) | Crea una plantilla de Excel nueva y su ficha | `agentes/fabrica.md` |
+| 4 | 🏭 Fábrica de productos | Domingos (11:17), 1 producto cada 2 semanas | Crea una plantilla de Excel nueva y su ficha | `agentes/fabrica.md` |
 | 3 | ✅ Editor-verificador | Cada día (13:23) | Comprueba datos, cuentas y calidad; publica o devuelve | `agentes/editor.md` |
 | 2 | ✍️ Redactor | Cada día (8:41) | Escribe 1 guía nueva del plan | `agentes/redactor.md` |
 | 1 | 🔎 Investigador | Lunes (9:13) | Busca 7 temas nuevos que la gente busca en Google | `agentes/investigador.md` |
@@ -43,3 +43,10 @@ Sin anuncios. Las calculadoras y los ejemplos propios son lo que hace que Google
 - Ningún agente borra artículos publicados. Solo puede marcarlos para revisión.
 - Los productos de pago **nunca** van en este repositorio (es público). Van en el repo privado `cuentas-claras-productos`.
 - Todo dato (porcentajes, leyes, impuestos, tipos de interés) se comprueba en una fuente oficial o fiable y se cita. Si no se puede comprobar, no se publica.
+
+## Arranque de cada agente (sesión nueva)
+
+1. Si `adrianpachonborrego-netizen/cuentas-claras` no está en la sesión, añádelo con acceso de escritura y clónalo (`git clone --depth 1`). La fábrica también clona `adrianpachonborrego-netizen/cuentas-claras-productos`.
+2. `pip install markdown` si hace falta.
+3. Lee `AGENTES.md` y `agentes/guia-estilo.md`, y después tu archivo de `agentes/`.
+4. Haz los commits en `main` con `git -c push.negotiate=true push origin HEAD:main`. Si el push falla porque hay cambios nuevos, haz `git pull --rebase` y vuelve a intentarlo una vez.

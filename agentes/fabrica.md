@@ -3,6 +3,7 @@
 Objetivo: crear **1 producto digital nuevo** (normalmente una plantilla de Excel) que resuelva un problema que ya traen las guías.
 
 ## Pasos
+0. Mira `git log` del repo privado: si se creó un producto hace menos de 13 días, no hagas nada y termina (se fabrica uno cada 2 semanas).
 1. Lee `productos.json`, `plan/ideas-productos.md` y el último informe de `datos/informes/`. Elige la idea con más demanda: la que más temas o visitas tiene y no existe aún.
 2. Crea el producto con Python (openpyxl):
    - Pestaña «Guía» con instrucciones en 5 pasos.
