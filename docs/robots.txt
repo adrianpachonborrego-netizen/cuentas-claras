@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://adrianpachonborrego-netizen.github.io/cuentas-claras/sitemap.xml

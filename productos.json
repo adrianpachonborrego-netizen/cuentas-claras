@@ -1,0 +1,20 @@
+[
+  {
+    "id": "presupuesto-ahorro-2027",
+    "nombre": "Plantilla de Presupuesto y Ahorro 2027",
+    "gancho": "Apunta tus ingresos y gastos y la plantilla hace el resto: resumen mes a mes, saldo, regla 50/30/20 y cuánto te falta para tu meta.",
+    "incluye": [
+      "Registro de movimientos con listas desplegables",
+      "Resumen anual automático por mes y categoría",
+      "Gráfico de ingresos vs gastos",
+      "Seguimiento de tu meta de ahorro (cuánto ahorrar al mes)",
+      "Comprobación de la regla 50/30/20",
+      "17 categorías editables y guía de uso"
+    ],
+    "precio": "4,99 €",
+    "precio_tachado": "",
+    "url_pago": "https://payhip.com/b/PENDIENTE",
+    "pagina": "plantillas/presupuesto-y-ahorro-2027.html",
+    "activo": true
+  }
+]

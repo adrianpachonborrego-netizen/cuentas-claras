@@ -1,0 +1,46 @@
+---
+titulo: Calculadora de meta de ahorro: cuánto ahorrar al mes para llegar
+descripcion: Dinos cuánto quieres ahorrar y para cuándo, y te decimos cuánto apartar cada mes, cada semana y cada día. Gratis y sin registro.
+ruta: herramientas/meta-de-ahorro.html
+seccion: Calculadora
+actualizado: 2026-11-15
+---
+<div class="crumbs"><a href="../">Inicio</a> › <a href="./">Calculadoras</a></div>
+<h1>Calculadora de meta de ahorro</h1>
+<p class="lead">¿Quieres juntar dinero para un viaje, un coche o un colchón? Mira cuánto apartar.</p>
+
+<div class="tool">
+  <label for="meta">¿Cuánto quieres ahorrar? (€)</label>
+  <input id="meta" type="number" inputmode="decimal" min="0" value="3000">
+  <label for="ya">¿Cuánto tienes ya? (€)</label>
+  <input id="ya" type="number" inputmode="decimal" min="0" value="0">
+  <label for="meses">¿En cuántos meses?</label>
+  <input id="meses" type="number" inputmode="numeric" min="1" value="12">
+  <div class="result" id="res"></div>
+</div>
+
+<script>
+(function(){
+  const fmt=n=>n.toLocaleString('es-ES',{style:'currency',currency:'EUR',useGrouping:'always',maximumFractionDigits:2});
+  const v=id=>Math.max(0,parseFloat(document.getElementById(id).value)||0);
+  function calc(){
+    const falta=Math.max(0,v('meta')-v('ya')), m=Math.max(1,v('meses'));
+    const mes=falta/m;
+    document.getElementById('res').innerHTML= falta===0 ? '<strong>¡Ya tienes tu meta!</strong>' :
+      `Ahorra <strong>${fmt(mes)}</strong> al mes<br>
+       <span class="small">Eso es ${fmt(mes*12/52)} a la semana o ${fmt(mes*12/365)} al día.</span>`;
+  }
+  document.querySelectorAll('.tool input').forEach(i=>i.addEventListener('input',calc)); calc();
+})();
+</script>
+
+<h2>Cómo hacer que la meta se cumpla</h2>
+<ol>
+<li><b>Ahorra primero, gasta después.</b> Programa una transferencia automática el día que cobras.</li>
+<li><b>Separa el dinero.</b> Una cuenta o "hucha" aparte para la meta evita que te lo gastes sin darte cuenta.</li>
+<li><b>Revisa cada mes.</b> Si un mes no llegas, súmalo a los siguientes o alarga el plazo; no abandones.</li>
+</ol>
+
+<h2>Sigue tu progreso sin hacer cuentas</h2>
+<p>La plantilla de presupuesto te dice cada mes cuánto llevas, cuánto te falta y cuánto tienes que ahorrar para llegar a tiempo.</p>
+[[producto:presupuesto-ahorro-2027]]

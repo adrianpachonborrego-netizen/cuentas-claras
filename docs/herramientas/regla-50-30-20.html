@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadora de la regla 50/30/20: reparte tu sueldo en segundos | Cuentas Claras</title>
+<meta name="description" content="Escribe lo que cobras al mes y te decimos cuánto destinar a necesidades, deseos y ahorro según la regla 50/30/20. Gratis y sin registro.">
+<link rel="canonical" href="https://adrianpachonborrego-netizen.github.io/cuentas-claras/herramientas/regla-50-30-20.html">
+<meta property="og:title" content="Calculadora de la regla 50/30/20: reparte tu sueldo en segundos | Cuentas Claras">
+<meta property="og:description" content="Escribe lo que cobras al mes y te decimos cuánto destinar a necesidades, deseos y ahorro según la regla 50/30/20. Gratis y sin registro.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://adrianpachonborrego-netizen.github.io/cuentas-claras/herramientas/regla-50-30-20.html">
+<link rel="stylesheet" href="/cuentas-claras/assets/style.css">
+
+</head>
+<body>
+<header class="site"><div class="wrap wide">
+  <a class="logo" href="/cuentas-claras/">Cuentas<span>Claras</span></a>
+  <nav class="main"><a href="/cuentas-claras/herramientas/">Calculadoras</a><a href="/cuentas-claras/plantillas/">Plantillas</a><a href="/cuentas-claras/blog/">Guías</a></nav>
+</div></header>
+<main><div class="wrap">
+<div class="crumbs"><a href="../">Inicio</a> › <a href="./">Calculadoras</a></div>
+<h1>Calculadora de la regla 50/30/20</h1>
+<p class="lead">Escribe lo que te entra al mes (en neto) y mira cómo repartirlo.</p>
+
+<div class="tool">
+  <label for="ing">Ingresos netos al mes (€)</label>
+  <input id="ing" type="number" inputmode="decimal" min="0" step="10" value="1200">
+  <label for="mod">Reparto</label>
+  <select id="mod">
+    <option value="50,30,20">Clásico 50 / 30 / 20</option>
+    <option value="60,20,20">Vivo en ciudad cara 60 / 20 / 20</option>
+    <option value="50,20,30">Quiero ahorrar más 50 / 20 / 30</option>
+    <option value="70,20,10">Voy justo 70 / 20 / 10</option>
+  </select>
+  <div class="result" id="res"></div>
+</div>
+
+<script>
+(function(){
+  const fmt=n=>n.toLocaleString('es-ES',{style:'currency',currency:'EUR',useGrouping:'always',maximumFractionDigits:0});
+  const colors=['#1f6f5c','#f2b84b','#3b82c4'];
+  const names=['Necesidades','Deseos','Ahorro'];
+  const desc=['Alquiler, comida, transporte, facturas','Ocio, ropa, suscripciones, caprichos','Colchón, metas, inversión'];
+  function calc(){
+    const ing=Math.max(0,parseFloat(document.getElementById('ing').value)||0);
+    const pct=document.getElementById('mod').value.split(',').map(Number);
+    let h='';
+    pct.forEach((p,i)=>{
+      h+=`<div><b>${names[i]} (${p}%)</b>: <strong>${fmt(ing*p/100)}</strong><br><span class="small">${desc[i]}</span></div><div class="bar"><i style="width:${p}%;background:${colors[i]}"></i></div>`;
+    });
+    h+=`<p class="small">En un año ahorrarías <b>${fmt(ing*pct[2]/100*12)}</b> con este reparto.</p>`;
+    document.getElementById('res').innerHTML=h;
+  }
+  document.getElementById('ing').addEventListener('input',calc);
+  document.getElementById('mod').addEventListener('change',calc);
+  calc();
+})();
+</script>
+
+<h2>Qué es la regla 50/30/20</h2>
+<p>Es una forma sencilla de repartir tu sueldo en tres partes: la mitad para lo que necesitas sí o sí, un 30&nbsp;% para lo que te apetece y un 20&nbsp;% para ahorrar. No es una ley: es un punto de partida para que sepas si tu dinero está equilibrado.</p>
+
+<h2>Qué cuenta como necesidad y qué como deseo</h2>
+<table>
+<tr><th>Necesidades (50 %)</th><th>Deseos (30 %)</th><th>Ahorro (20 %)</th></tr>
+<tr><td>Alquiler o hipoteca</td><td>Comer fuera, salir</td><td>Fondo de emergencia</td></tr>
+<tr><td>Súper básico</td><td>Ropa que no necesitas ya</td><td>Meta (coche, viaje, entrada piso)</td></tr>
+<tr><td>Luz, agua, internet, móvil</td><td>Netflix, Spotify, juegos</td><td>Amortizar deudas antes de tiempo</td></tr>
+<tr><td>Transporte para trabajar o estudiar</td><td>Caprichos y regalos</td><td>Inversión a largo plazo</td></tr>
+</table>
+
+<div class="note"><b>Truco:</b> si tus necesidades pasan del 50&nbsp;%, no te agobies. En ciudades como Madrid o Barcelona es normal. Usa el reparto 60/20/20 y recorta primero de los deseos, no del ahorro.</div>
+
+<h2>Llévalo a la práctica todo el año</h2>
+<p>Calcularlo una vez es fácil. Lo difícil es saber si lo cumples mes a mes. Para eso hicimos una plantilla que te lo dice sola.</p>
+
+<div class="offer">
+  <span class="tag">Plantilla lista para usar</span>
+  <h3>Plantilla de Presupuesto y Ahorro 2027</h3>
+  <p>Apunta tus ingresos y gastos y la plantilla hace el resto: resumen mes a mes, saldo, regla 50/30/20 y cuánto te falta para tu meta.</p>
+  <ul><li>Registro de movimientos con listas desplegables</li><li>Resumen anual automático por mes y categoría</li><li>Gráfico de ingresos vs gastos</li><li>Seguimiento de tu meta de ahorro (cuánto ahorrar al mes)</li><li>Comprobación de la regla 50/30/20</li><li>17 categorías editables y guía de uso</li></ul>
+  <div class="price">4,99 €</div>
+  <p class="small">Descarga inmediata · Excel, Google Sheets y LibreOffice · Pago seguro</p>
+  <a class="btn big" href="https://payhip.com/b/PENDIENTE" data-payhip>Descargar ahora</a>
+  <p class="small" style="margin-top:10px"><a href="/cuentas-claras/plantillas/presupuesto-y-ahorro-2027.html">Ver todo lo que incluye</a></p>
+</div>
+
+<p class="small">Esta calculadora es orientativa y no sustituye el consejo de un profesional.</p>
+
+</div></main>
+<footer class="site"><div class="wrap wide">
+  <p>© 2026 Cuentas Claras · Información general, no es asesoramiento financiero personalizado.</p>
+  <p><a href="/cuentas-claras/aviso-legal.html">Aviso legal</a><a href="/cuentas-claras/privacidad.html">Privacidad</a><a href="/cuentas-claras/cookies.html">Cookies</a><a href="/cuentas-claras/contacto.html">Contacto</a></p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadora de interés compuesto: cuánto crecerán tus ahorros | Cuentas Claras</title>
+<meta name="description" content="Calcula cuánto dinero tendrás si ahorras cada mes con un interés compuesto. Con aportaciones mensuales, años y rentabilidad. Gratis.">
+<link rel="canonical" href="https://adrianpachonborrego-netizen.github.io/cuentas-claras/herramientas/interes-compuesto.html">
+<meta property="og:title" content="Calculadora de interés compuesto: cuánto crecerán tus ahorros | Cuentas Claras">
+<meta property="og:description" content="Calcula cuánto dinero tendrás si ahorras cada mes con un interés compuesto. Con aportaciones mensuales, años y rentabilidad. Gratis.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://adrianpachonborrego-netizen.github.io/cuentas-claras/herramientas/interes-compuesto.html">
+<link rel="stylesheet" href="/cuentas-claras/assets/style.css">
+
+</head>
+<body>
+<header class="site"><div class="wrap wide">
+  <a class="logo" href="/cuentas-claras/">Cuentas<span>Claras</span></a>
+  <nav class="main"><a href="/cuentas-claras/herramientas/">Calculadoras</a><a href="/cuentas-claras/plantillas/">Plantillas</a><a href="/cuentas-claras/blog/">Guías</a></nav>
+</div></header>
+<main><div class="wrap">
+<div class="crumbs"><a href="../">Inicio</a> › <a href="./">Calculadoras</a></div>
+<h1>Calculadora de interés compuesto</h1>
+<p class="lead">Mira cuánto puede crecer tu dinero si ahorras un poco cada mes.</p>
+
+<div class="tool">
+  <label for="ini">Dinero que tienes ahora (€)</label>
+  <input id="ini" type="number" inputmode="decimal" min="0" value="1000">
+  <label for="men">Aportación cada mes (€)</label>
+  <input id="men" type="number" inputmode="decimal" min="0" value="100">
+  <label for="int">Rentabilidad anual estimada (%)</label>
+  <input id="int" type="number" inputmode="decimal" step="0.5" value="5">
+  <label for="anos">Años</label>
+  <input id="anos" type="number" inputmode="numeric" min="1" max="60" value="10">
+  <div class="result" id="res"></div>
+</div>
+
+<script>
+(function(){
+  const fmt=n=>n.toLocaleString('es-ES',{style:'currency',currency:'EUR',useGrouping:'always',maximumFractionDigits:0});
+  const v=id=>Math.max(0,parseFloat(document.getElementById(id).value)||0);
+  function calc(){
+    const ini=v('ini'),men=v('men'),r=v('int')/100/12,n=Math.round(v('anos')*12);
+    let s=ini; for(let i=0;i<n;i++){s=s*(1+r)+men;}
+    const puesto=ini+men*n, ganado=s-puesto;
+    const pg=s>0?Math.round(ganado/s*100):0;
+    document.getElementById('res').innerHTML=
+      `Tendrás unos <strong>${fmt(s)}</strong><br>
+       <span class="small">Tú pones ${fmt(puesto)} · el interés te da ${fmt(ganado)} (${pg}% del total)</span>
+       <div class="bar"><i style="width:${100-pg}%;background:#1f6f5c;float:left"></i><i style="width:${pg}%;background:#f2b84b;float:left"></i></div>
+       <span class="small">Verde: lo que aportas · Amarillo: lo que gana el interés</span>`;
+  }
+  document.querySelectorAll('.tool input').forEach(i=>i.addEventListener('input',calc)); calc();
+})();
+</script>
+
+<h2>Qué es el interés compuesto</h2>
+<p>Es cuando los intereses que ganas también empiezan a generar intereses. Al principio se nota poco, pero con los años la bola crece cada vez más rápido. Por eso empezar pronto importa más que ahorrar mucho.</p>
+
+<h2>Ejemplo: empezar a los 20 o a los 30</h2>
+<p>Con 100&nbsp;€ al mes y un 5&nbsp;% anual, quien empieza 10 años antes acaba con mucho más dinero aunque solo haya puesto 12.000&nbsp;€ más. Prueba a cambiar los años en la calculadora y lo verás.</p>
+
+<div class="note"><b>Ojo:</b> la rentabilidad no está garantizada. Una cuenta remunerada da poco pero es segura; los fondos indexados suelen dar más a largo plazo pero pueden bajar. El 5&nbsp;% es solo un ejemplo.</div>
+
+<h2>Primero, saber cuánto puedes ahorrar</h2>
+<p>Antes de pensar en invertir necesitas saber cuánto te sobra cada mes. Esta plantilla te lo calcula sola.</p>
+
+<div class="offer">
+  <span class="tag">Plantilla lista para usar</span>
+  <h3>Plantilla de Presupuesto y Ahorro 2027</h3>
+  <p>Apunta tus ingresos y gastos y la plantilla hace el resto: resumen mes a mes, saldo, regla 50/30/20 y cuánto te falta para tu meta.</p>
+  <ul><li>Registro de movimientos con listas desplegables</li><li>Resumen anual automático por mes y categoría</li><li>Gráfico de ingresos vs gastos</li><li>Seguimiento de tu meta de ahorro (cuánto ahorrar al mes)</li><li>Comprobación de la regla 50/30/20</li><li>17 categorías editables y guía de uso</li></ul>
+  <div class="price">4,99 €</div>
+  <p class="small">Descarga inmediata · Excel, Google Sheets y LibreOffice · Pago seguro</p>
+  <a class="btn big" href="https://payhip.com/b/PENDIENTE" data-payhip>Descargar ahora</a>
+  <p class="small" style="margin-top:10px"><a href="/cuentas-claras/plantillas/presupuesto-y-ahorro-2027.html">Ver todo lo que incluye</a></p>
+</div>
+
+<p class="small">Resultados aproximados con capitalización mensual. No es asesoramiento financiero.</p>
+
+</div></main>
+<footer class="site"><div class="wrap wide">
+  <p>© 2026 Cuentas Claras · Información general, no es asesoramiento financiero personalizado.</p>
+  <p><a href="/cuentas-claras/aviso-legal.html">Aviso legal</a><a href="/cuentas-claras/privacidad.html">Privacidad</a><a href="/cuentas-claras/cookies.html">Cookies</a><a href="/cuentas-claras/contacto.html">Contacto</a></p>
+</div></footer>
+</body>
+</html>
