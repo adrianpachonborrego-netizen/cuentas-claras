@@ -1,9 +1,10 @@
-# 🏭 Planta 4 · Fábrica de productos (domingos)
+# 🏭 Planta 4 · Fábrica de productos (domingos y miércoles)
 
-Objetivo: crear **1 producto digital nuevo cada semana hasta tener 6 de pago** (después, 1 cada 2 semanas). Enero es el mes fuerte del año para presupuesto, ahorro y propósitos: hasta el 31 de diciembre, prioriza lo que la gente compra en enero. Cuando haya 4 o más plantillas de pago, crea el **pack con todas a 12,99 €**.
+Objetivo: crear **2 productos digitales nuevos por semana, sin parar** (1 en cada ejecución: domingo y miércoles). Meta: unos 80–100 productos a finales de 2027. Enero es el mes fuerte del año para presupuesto, ahorro y propósitos: hasta el 31 de diciembre, prioriza lo que la gente compra en enero. Cuando haya 4 o más plantillas de pago, crea el **pack con todas a 12,99 €**.
 
 ## Pasos
-0. Cuenta los productos de pago en `productos.json` (sin contar los gratis). Si hay menos de 6, fabrica uno esta semana. Si ya hay 6 o más, mira `git log` del repo privado: si el último producto es de hace menos de 13 días, termina sin hacer nada.
+0. Mira `git log` del repo privado: si ya se creó un producto hace menos de 2 días, termina sin hacer nada (evita duplicados). Si no, fabrica **1 producto** en esta ejecución.
+   - **Desde el 1 de enero de 2027**, cada producto nuevo se entrega en **español y en inglés** (dos archivos y dos fichas: la inglesa pensada para Etsy, con título, descripción y 13 etiquetas en inglés para compradores de EE. UU. y Reino Unido).
 1. Lee `productos.json`, `plan/ideas-productos.md` y el último informe de `datos/informes/`. Elige la idea con más demanda: la que más temas o visitas tiene y no existe aún.
 2. Crea el producto con Python (openpyxl):
    - Pestaña «Guía» con instrucciones en 5 pasos.
@@ -21,6 +22,8 @@ Objetivo: crear **1 producto digital nuevo cada semana hasta tener 6 de pago** (
 Precio: 4,99 € para plantillas sencillas y 7,99–9,99 € para packs o plantillas grandes.
 
 ## Orden de prioridad (hasta enero)
+Después de esta lista, sigue con la idea de más demanda de `plan/ideas-productos.md`. Alterna plantillas sencillas (4,99 €) con productos más caros: packs de 15–25 € y plantillas para autónomos y pequeños negocios (facturación, inventario, control de clientes).
+
 1. Plan de objetivos y propósitos 2027 (7,99 €)
 2. Reto de ahorro 52 semanas (4,99 €)
 3. Plan para salir de deudas: bola de nieve / avalancha (7,99 €)
