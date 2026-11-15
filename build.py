@@ -60,6 +60,7 @@ def caja_producto(pid):
 
 def layout(title, description, body, path, extra_head=""):
     canonical = f"{SITE}{url(path)}"
+    verif = f'<meta name="google-site-verification" content="{CFG["google_verificacion"]}">' if CFG.get("google_verificacion") else ""
     return f"""<!doctype html>
 <html lang="es">
 <head>
@@ -73,6 +74,7 @@ def layout(title, description, body, path, extra_head=""):
 <meta property="og:type" content="website">
 <meta property="og:url" content="{canonical}">
 <link rel="stylesheet" href="{url('assets/style.css')}">
+{verif}
 {extra_head}
 </head>
 <body>
