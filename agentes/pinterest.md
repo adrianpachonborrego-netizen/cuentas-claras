@@ -12,4 +12,4 @@ Objetivo: dejar preparados **7 pines** para la semana siguiente (1 al día), que
    - `estilo`: alterna 0, 1, 2 y 3. `cta`: «Descárgala en Cuentas Claras →» si enlaza a una plantilla de pago.
 4. Ejecuta `python3 marketing/hacer_pines.py marketing/pines/AAAA-MM-DD.json` y mira 2–3 imágenes con Read (que no se corte texto).
 5. `python3 build.py`, commit y push (las imágenes tienen que estar publicadas para que Pinterest las lea por URL).
-6. Envía a Adrián con SendUserFile el CSV `marketing/pines/AAAA-MM-DD.csv` y dile: «Pinterest → Crear → Crear pines en bloque → sube este CSV».
+6. Haz un ZIP con las 7 imágenes de `assets/pins/AAAA-MM-DD/` y envíaselo a Adrián con SendUserFile (también el CSV, por si un día Pinterest le deja subirlo en bloque). Su Pinterest NO tiene subida por CSV: sube las 7 imágenes a la vez en Crear Pin y rellena cada borrador a mano. Por eso, en tu mensaje final escribe para cada pin, listo para copiar: número de imagen y fecha, **Título**, **Descripción** y **Enlace COMPLETO** (https://… entero, sin abreviar). Tablero: «Ahorro y presupuesto»; publicar más tarde a las 19:00.
