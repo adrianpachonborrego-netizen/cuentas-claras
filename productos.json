@@ -17,5 +17,22 @@
     "pagina": "plantillas/presupuesto-y-ahorro-2027.html",
     "activo": true,
     "imagen": "assets/img/plantilla-presupuesto-2027.jpg"
+  },
+  {
+    "id": "control-gastos-gratis",
+    "nombre": "Control de gastos del mes (gratis)",
+    "gancho": "Una hoja sencilla para ver en qué se va tu dinero este mes: presupuesto frente a lo gastado, por categoría, y cuánto te sobra.",
+    "incluye": [
+      "Presupuesto vs gastado por categoría",
+      "Aviso en rojo si te pasas",
+      "Cuánto te sobra y % que ahorras",
+      "Excel y Google Sheets"
+    ],
+    "precio": "Gratis",
+    "precio_tachado": "",
+    "url_pago": "https://payhip.com/b/PENDIENTE",
+    "pagina": "plantillas/control-de-gastos-gratis.html",
+    "activo": false,
+    "gratis": true
   }
 ]

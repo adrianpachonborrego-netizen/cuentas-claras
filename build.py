@@ -48,13 +48,13 @@ def caja_producto(pid):
     img = f'<img src="{url(p["imagen"])}" alt="{html.escape(p["nombre"])}" loading="lazy" style="border-radius:10px;margin-bottom:14px;border:1px solid #e3e8ee">' if p.get("imagen") else ""
     return f"""
 <div class="offer">
-  {img}<span class="tag">Plantilla lista para usar</span>
+  {img}<span class="tag">{"Plantilla gratis" if p.get("gratis") else "Plantilla lista para usar"}</span>
   <h3>{html.escape(p['nombre'])}</h3>
   <p>{html.escape(p['gancho'])}</p>
   <ul>{incluye}</ul>
   <div class="price">{p['precio']}{tachado}</div>
-  <p class="small">Descarga inmediata · Excel, Google Sheets y LibreOffice · Pago seguro</p>
-  <a class="btn big" href="{p['url_pago']}" data-payhip>Descargar ahora</a>
+  <p class="small">{"Gratis · solo te pide el email para enviártela" if p.get("gratis") else "Descarga inmediata · Excel, Google Sheets y LibreOffice · Pago seguro"}</p>
+  <a class="btn big" href="{p['url_pago']}" data-payhip>{"Descargar gratis" if p.get("gratis") else "Descargar ahora"}</a>
   <p class="small" style="margin-top:10px"><a href="{url(p['pagina'])}">Ver todo lo que incluye</a></p>
 </div>"""
 

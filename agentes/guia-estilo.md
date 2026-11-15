@@ -13,7 +13,7 @@ Gente normal en España, de 18 a 40 años: primer sueldo, estudiantes, gente que
 1. **Respuesta en las 2 primeras frases.** El lector sabe al momento si está en el sitio correcto.
 2. **Algo propio que no esté en otras webs**: un ejemplo calculado paso a paso, una tabla comparativa hecha por nosotros o un enlace a una de nuestras calculadoras.
 3. **Al menos un enlace interno** a una calculadora o a otra guía (rutas relativas: `../herramientas/x.html`, `otra-guia.html`).
-4. **Una sola caja de producto** `[[producto:ID]]`, al final o tras el ejemplo, y solo si de verdad ayuda con ese problema.
+4. **Una sola caja de producto** `[[producto:ID]]`, al final o tras el ejemplo, y solo si de verdad ayuda con ese problema. Si ninguna plantilla de pago encaja, usa la gratis `[[producto:control-gastos-gratis]]` (capta emails para avisar de plantillas nuevas). Solo productos con `"activo": true`.
 5. **Entre 700 y 1.400 palabras.** Mejor corta y útil que larga y vacía.
 6. **Datos comprobados.** Leyes, impuestos, SMI, IPC, tipos de interés: fuente oficial (BOE, Agencia Tributaria, Seguridad Social, INE, Banco de España) en un enlace dentro del texto, con el año. Si no se puede comprobar, se quita.
 7. **Cuentas correctas.** Toda suma, porcentaje y resultado se calcula con Python antes de publicar.
