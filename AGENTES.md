@@ -17,6 +17,8 @@ Sin anuncios. Las calculadoras y los ejemplos propios son lo que hace que Google
 | 3 | ✅ Editor-verificador | Cada día (13:23) | Comprueba datos, cuentas y calidad; publica o devuelve | `agentes/editor.md` |
 | 2 | ✍️ Redactor | Cada día (8:41) | Escribe 1 guía nueva del plan | `agentes/redactor.md` |
 | 1 | 🔎 Investigador | Lunes (9:13) | Busca 7 temas nuevos que la gente busca en Google | `agentes/investigador.md` |
+| 7 | 📌 Pinterest | Sábados (10:23) | Prepara 7 pines y el CSV de subida masiva | `agentes/pinterest.md` |
+| 6 | 🎬 Reto diario | Cada día (9:07) | Vídeo del reto con las cifras reales para TikTok/Shorts | `agentes/reto.md` |
 | 0 | 📘 Reglas comunes | — | Estilo, tono, formato y lo que nunca se hace | `agentes/guia-estilo.md` |
 
 **Ritmo: 1 guía al día, no una por hora.** Desde 2024 Google penaliza el «scaled content abuse» (muchas páginas hechas con IA sin valor). Es mejor 1 guía buena con ejemplo propio que 24 genéricas.
@@ -31,9 +33,17 @@ Sin anuncios. Las calculadoras y los ejemplos propios son lo que hace que Google
 - `datos/informes/`: informes del analista, para que los leas.
 - `build.py`: genera la web en `docs/` (GitHub Pages).
 
+## La meta
+Fase 1: **2 ventas al día durante 7 días seguidos**. Después 3, 4 y 5 (ver `reto/config.json`). Todos los agentes trabajan para eso.
+
+## Canales de venta
+- **Web + Google** (Payhip) · **Etsy** (misma plantilla, ficha en `marketing/etsy.md`) · **TikTok/Shorts** (reto diario) · **Pinterest** (pines a la web)
+
 ## Lo que haces tú (10 min cada 2 días)
 
-1. **Payhip** → Dashboard: apunta las ventas y los ingresos.
+0. **Cada noche (30 s):** añade una línea a `datos/ventas-diarias.csv` con las ventas de Payhip y Etsy del día (o pégaselas a Claude).
+1. **Cada mañana:** sube el vídeo del reto a TikTok y Shorts con un sonido en tendencia.
+1. **Payhip / Etsy:** apunta las ventas y los ingresos.
 2. **Google Search Console** → Rendimiento: apunta clics, impresiones y la página con más clics.
 3. Añade una línea a `datos/metricas.csv` (o pégame los números en el chat y la añado yo).
 4. Cuando la fábrica cree un producto: súbelo a Payhip, copia el enlace en `productos.json` y pon `"activo": true`.

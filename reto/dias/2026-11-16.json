@@ -1,0 +1,7 @@
+{
+  "dia": 1, "total_dias": 30,
+  "ventas_ayer": 0, "ingresos_ayer": 0, "total": 0,
+  "objetivo_ventas_dia": 2, "racha": 0, "racha_meta": 7,
+  "hoy": ["Web lanzada con 5 agentes de IA", "Primera plantilla a la venta", "Abriendo tienda en Etsy"],
+  "pregunta": "¿Cuándo crees que llega la primera venta?"
+}

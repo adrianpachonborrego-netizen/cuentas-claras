@@ -1,0 +1,10 @@
+{
+  "inicio": "2026-11-16",
+  "total_dias": 30,
+  "fases": [
+    {"fase": 1, "objetivo_ventas_dia": 2, "racha_meta": 7},
+    {"fase": 2, "objetivo_ventas_dia": 3, "racha_meta": 7},
+    {"fase": 3, "objetivo_ventas_dia": 4, "racha_meta": 7},
+    {"fase": 4, "objetivo_ventas_dia": 5, "racha_meta": 7}
+  ]
+}

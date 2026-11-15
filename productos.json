@@ -15,6 +15,7 @@
     "precio_tachado": "",
     "url_pago": "https://payhip.com/b/FTm9C",
     "pagina": "plantillas/presupuesto-y-ahorro-2027.html",
-    "activo": true
+    "activo": true,
+    "imagen": "assets/img/plantilla-presupuesto-2027.jpg"
   }
 ]

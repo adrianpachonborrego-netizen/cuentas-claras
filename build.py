@@ -45,9 +45,10 @@ def caja_producto(pid):
         return ""
     incluye = "".join(f"<li>{html.escape(i)}</li>" for i in p["incluye"])
     tachado = f"<s>{p['precio_tachado']}</s>" if p.get("precio_tachado") else ""
+    img = f'<img src="{url(p["imagen"])}" alt="{html.escape(p["nombre"])}" loading="lazy" style="border-radius:10px;margin-bottom:14px;border:1px solid #e3e8ee">' if p.get("imagen") else ""
     return f"""
 <div class="offer">
-  <span class="tag">Plantilla lista para usar</span>
+  {img}<span class="tag">Plantilla lista para usar</span>
   <h3>{html.escape(p['nombre'])}</h3>
   <p>{html.escape(p['gancho'])}</p>
   <ul>{incluye}</ul>
