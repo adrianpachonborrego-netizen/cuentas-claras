@@ -7,7 +7,7 @@ actualizado: 2026-11-16
 lectura: 6
 palabra_clave: cómo ahorrar en navidad
 producto: presupuesto-ahorro-2027
-estado: borrador
+estado: publicado
 ---
 Para ahorrar en Navidad no hace falta renunciar a nada: hace falta **poner una cifra total antes de empezar a gastar y repartirla por partidas**. Abajo tienes un presupuesto navideño completo de 450 € para alguien que cobra 1.250 €, tres trucos que le ahorran 188 € y cuánto apartar cada semana si empiezas hoy.
 
@@ -55,20 +55,22 @@ La partida de regalos se desmadra si solo pones un total. Lucía hace una lista 
 
 | Persona | Límite |
 |---|---|
-| Madre | 30 € |
-| Padre | 30 € |
+| Madre | 25 € |
+| Padre | 25 € |
 | Hermana | 25 € |
-| Pareja | 40 € |
+| Abuela | 25 € |
+| Amigo invisible con sus amigos | 15 € |
 | Amigo invisible del trabajo | 15 € |
+| Detalle para su compañera de piso | 10 € |
 | **Total** | **140 €** |
 
-Si ve algo de 45 € para su pareja, sabe que tiene que quitar 5 € de otro sitio. Así cada decisión es consciente, no un susto en enero.
+Si ve algo de 45 € para su madre, sabe que tiene que quitar 20 € de otro sitio. Así cada decisión es consciente, no un susto en enero.
 
 <div class="note" markdown="1">**Tu cifra no tiene que ser 450 €.** Empieza por lo que puedes pagar sin tocar el dinero del alquiler ni tu [fondo de emergencia](fondo-de-emergencia.html). Si no sabes cuánto te sobra al mes, primero [haz un presupuesto mensual](como-hacer-un-presupuesto-mensual.html).</div>
 
 ## 3 trucos que ahorran 188 €
 
-Lucía no se queda sin Navidad. Solo cambia tres costumbres. Estas son las cuentas:
+Lucía no se queda sin Navidad. Su presupuesto cuadra en 450 € porque cambia tres costumbres respecto a otros años. Estas son las cuentas:
 
 | Truco | Antes | Después | Ahorro |
 |---|---|---|---|
@@ -77,7 +79,7 @@ Lucía no se queda sin Navidad. Solo cambia tres costumbres. Estas son las cuent
 | Límite de 25 € por regalo en la familia (4 personas) en vez de 40 € | 160 € | 100 € | 60 € |
 | **Total** | | | **188 €** |
 
-Con esos 188 € de margen, Lucía puede bajar su presupuesto de 450 € a **262 €** o mantenerlo y usar la diferencia para no llegar justa a enero. Las dos opciones valen.
+Sin estos tres cambios, su Navidad le habría costado **638 €** (450 + 188). Con ellos se queda en 450 € y sigue regalando a todos y cenando con sus amigos.
 
 ### Más formas de gastar menos sin quedar mal
 
