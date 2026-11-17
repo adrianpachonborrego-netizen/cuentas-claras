@@ -5,7 +5,7 @@ Formato: `- [ ] Prioridad | palabra clave | título | intención | algo propio |
 
 ## Pendientes
 - [x] P1 | cómo ahorrar en navidad | Cómo ahorrar en Navidad sin pasarlo mal: presupuesto con ejemplo | info | tabla de presupuesto navideño por partidas | presupuesto-ahorro-2027
-- [~] P1 | qué hacer con la paga extra | Qué hacer con la paga extra de diciembre: 4 repartos con números | info | 4 repartos calculados de una paga de 1.200 € | presupuesto-ahorro-2027
+- [x] P1 | qué hacer con la paga extra | Qué hacer con la paga extra de diciembre: 4 repartos con números | info | 4 repartos calculados de una paga de 1.200 € | presupuesto-ahorro-2027
 - [ ] P1 | cuesta de enero | Cómo sobrevivir a la cuesta de enero: plan de 4 semanas | info | calendario semanal de gastos con ejemplo | presupuesto-ahorro-2027
 - [ ] P2 | cómo ahorrar dinero cobrando poco | Cómo ahorrar cobrando poco: método realista con 1.000 € | info | ejemplo mes completo con 1.000 € | presupuesto-ahorro-2027
 - [ ] P2 | cuánto ahorrar al mes | Cuánto deberías ahorrar al mes según lo que cobras (tabla) | info | tabla de ahorro por tramos de sueldo | presupuesto-ahorro-2027

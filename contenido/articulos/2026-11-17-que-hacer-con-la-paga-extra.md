@@ -7,7 +7,7 @@ actualizado: 2026-11-17
 lectura: 6
 palabra_clave: qué hacer con la paga extra
 producto: presupuesto-ahorro-2027
-estado: borrador
+estado: publicado
 ---
 Lo mejor que puedes hacer con la paga extra es **repartirla antes de cobrarla**: primero lo que ya sabes que vas a pagar (Navidad y enero), después las deudas caras, luego tu colchón y, al final, un capricho con cifra. Abajo tienes 4 repartos calculados de una paga de 1.200 € para que elijas el que se parece a tu situación.
 
@@ -22,7 +22,7 @@ Lo mejor que puedes hacer con la paga extra es **repartirla antes de cobrarla**:
 
 ## Antes de nada: ¿la cobras de verdad?
 
-En España tienes derecho a **dos pagas extra al año, una de ellas en Navidad**. Lo dice el [artículo 31 del Estatuto de los Trabajadores (BOE, texto consolidado 2025)](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a31). Pero el mismo artículo permite que el convenio las **prorratee en las 12 nóminas**.
+En España tienes derecho a **dos pagas extra al año, una de ellas en Navidad**. Lo dice el [artículo 31 del Estatuto de los Trabajadores (BOE, texto consolidado vigente en 2026)](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a31). Pero el mismo artículo permite que el convenio las **prorratee en las 12 nóminas**.
 
 Mira tu nómina de cualquier mes. Si ves una línea tipo «prorrata pagas extra», ya la estás cobrando poco a poco y en diciembre no llegará nada aparte. Mejor saberlo ahora que el 20 de diciembre.
 
@@ -86,7 +86,7 @@ Con 480 € de golpe, le faltan **2.520 €**. Si aparta 100 € al mes, los tie
 
 ### Reparto 4: vas justo y la paga tiene que cubrir las fiestas
 
-Es el caso más común y no pasa nada. Marta sabe que la paga se va a ir en diciembre y enero; lo importante es que se vaya con un plan.
+Es un caso muy habitual y no pasa nada. Marta sabe que la paga se va a ir en diciembre y enero; lo importante es que se vaya con un plan.
 
 | Partida | % | Importe |
 |---|---|---|
