@@ -89,6 +89,14 @@ def escenas(D):
         im = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(im)
         header(d, dia, tot, "AYER")
         centered(d, 450, "AYER, AL CERRAR", F_BIG(100))
+        if D.get("ventas_ayer") is None:  # falta la fila de ayer: no se inventa nada
+            card(d, 90, 640, W - 104, 1140)
+            centered(d, 720, "?", F_BIG(260), BLUE)
+            centered(d, 1020, "SIN CIFRAS TODAVÍA", F_BOLD(52), MUTED)
+            if t > 1.0:
+                pill(d, W / 2, 1290, "Hoy no hay cifras:", F_BOLD(46), fg=BLUE)
+                pill(d, W / 2, 1410, "mañana, doble recuento", F_BOLD(46), fg=BLUE)
+            return im
         card(d, 90, 640, W - 104, 1140)
         k = ease(t / 1.2)
         v = round(D["ventas_ayer"] * k)
@@ -111,6 +119,8 @@ def escenas(D):
         k = ease(t / 1.3)
         centered(d, 700, eur(D["total"] * k), F_BIG(180), GREEN)
         centered(d, 950, "ventas de plantillas · todo real", F_MED(46), MUTED)
+        if D.get("ventas_ayer") is None:
+            centered(d, 1030, "(sin contar ayer: va mañana)", F_MED(46), MUTED)
         return im
 
     def e4(t):  # racha
