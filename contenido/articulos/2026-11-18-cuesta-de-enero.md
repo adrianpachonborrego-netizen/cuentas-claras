@@ -7,7 +7,7 @@ actualizado: 2026-11-18
 lectura: 6
 palabra_clave: cuesta de enero
 producto: presupuesto-ahorro-2027
-estado: borrador
+estado: publicado
 ---
 La cuesta de enero se sobrevive **dividiendo el mes en 4 semanas con un tope de gasto cada una** y colocando los pagos grandes en la semana en la que caen. Abajo tienes un calendario completo con un ejemplo de 1.650 € para enero, y lo que queda en la cuenta al final de cada semana.
 
@@ -24,9 +24,9 @@ La cuesta de enero se sobrevive **dividiendo el mes en 4 semanas con un tope de 
 
 No es solo que gastes más en Navidad. Se juntan tres cosas:
 
-- **Un mes más largo de lo que parece.** Muchas empresas adelantan la nómina de diciembre antes de Navidad. Si cobras el 22 de diciembre y la siguiente nómina llega el 30 de enero, ese dinero tiene que durar **39 días**, no 30.
+- **Un mes más largo de lo que parece.** Algunas empresas adelantan la nómina de diciembre antes de Navidad. Si cobras el 22 de diciembre y la siguiente nómina llega el 30 de enero, ese dinero tiene que durar **39 días**, no 30.
 - **Pagos que solo llegan una vez al año.** Renovación de seguros, la matrícula del gimnasio, el plazo de los regalos que compraste «en 3 cuotas sin intereses».
-- **Enero no trae paga extra.** Según el [artículo 31 del Estatuto de los Trabajadores (BOE, texto vigente en 2026)](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a31), una de las dos pagas extra es en Navidad. La otra suele ser en verano. Enero se apaña con la nómina normal.
+- **Enero no trae paga extra.** Según el [artículo 31 del Estatuto de los Trabajadores (BOE, texto vigente en 2026)](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a31), una de las dos pagas extra es en Navidad. La otra suele ser en verano. Salvo que tengas las pagas prorrateadas, que el mismo artículo permite si lo dice tu convenio, enero se apaña con la nómina normal.
 
 Si ya sabes esto en noviembre, tienes ventaja. La mayoría lo descubre el 15 de enero mirando el saldo.
 
@@ -94,7 +94,7 @@ Si no sabes cuánto te corresponde para necesidades, caprichos y ahorro, la [cal
 
 ## Si aun así no llegas
 
-Sin los 300 € de la paga extra, a Lucía le faltarían justo **300 €** en enero. Lo fácil es ponerlos en la tarjeta. Veamos lo que cuesta.
+Sin los 300 € de la paga extra, a Lucía le faltarían **300 €** en enero para cumplir el plan con su colchón (200 € si renuncia a él). Lo fácil es ponerlos en la tarjeta. Veamos lo que cuesta.
 
 Si esos 300 € van a una tarjeta que cobra, por ejemplo, un **20 % TAE** y los devuelve en 6 cuotas mensuales:
 
