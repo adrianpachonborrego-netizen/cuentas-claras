@@ -34,5 +34,24 @@
     "pagina": "plantillas/control-de-gastos-gratis.html",
     "activo": false,
     "gratis": true
+  },
+  {
+    "id": "objetivos-2027",
+    "nombre": "Plan de Objetivos y Propósitos 2027",
+    "gancho": "Pon números a tus propósitos: la plantilla te dice cuánto llevas, cuánto apartar al mes y si vas a tiempo con cada objetivo.",
+    "incluye": [
+      "Hasta 12 objetivos con meta, fecha límite y estado automático",
+      "Cuánto te falta y cuánto necesitas al mes para llegar",
+      "Plan de acción: primer paso, hábito, obstáculo y plan B",
+      "Seguimiento mes a mes y revisión mensual con nota",
+      "Panel con gráficos y total de dinero a apartar al mes",
+      "Guía de uso · Excel, Google Sheets y LibreOffice"
+    ],
+    "precio": "7,99 €",
+    "precio_tachado": "",
+    "url_pago": "https://payhip.com/b/PENDIENTE",
+    "pagina": "plantillas/objetivos-y-propositos-2027.html",
+    "activo": false,
+    "imagen": "assets/img/plantilla-objetivos-2027.jpg"
   }
 ]
