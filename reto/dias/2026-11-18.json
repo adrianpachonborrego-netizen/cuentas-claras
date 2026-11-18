@@ -1,0 +1,7 @@
+{
+  "dia": 3, "total_dias": 30,
+  "ventas_ayer": null, "ingresos_ayer": null, "total": 0,
+  "objetivo_ventas_dia": 2, "racha": 0, "racha_meta": 7,
+  "hoy": ["Publicada guía: la paga extra", "Borrador: cuesta de enero", "Informe del analista al día"],
+  "pregunta": "¿Cuántas ventas llevo en 3 días?"
+}
