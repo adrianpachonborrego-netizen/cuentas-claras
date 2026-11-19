@@ -7,7 +7,7 @@ actualizado: 2026-11-19
 lectura: 6
 palabra_clave: comprar a plazos black friday
 producto: presupuesto-ahorro-2027
-estado: borrador
+estado: publicado
 ---
 Comprar a plazos en Black Friday cuesta **lo que pagas en total menos el precio al contado**, y ese número solo es cero si no hay intereses ni comisiones de ningún tipo. Abajo tienes 3 compras típicas calculadas al céntimo: un «sin intereses» que sí cuesta, una tele con un 19,56 % TAE y unos regalos que salen gratis… siempre que no se te junten las cuotas.
 
@@ -27,7 +27,7 @@ Olvídate del «solo 45 € al mes». Haz esta cuenta:
 
 **Coste = (cuota × número de cuotas) + comisiones − precio al contado**
 
-Y mira la **TAE**, no el TIN. El TIN es solo el interés. La TAE mete además las comisiones y el calendario de pagos, y la [Ley 16/2011 de contratos de crédito al consumo (BOE, texto vigente en 2026)](https://www.boe.es/buscar/act.php?id=BOE-A-2011-10970) obliga a indicarla en la publicidad y en el contrato de crédito. Por eso un «0 % de interés» puede tener una TAE que no es cero.
+Y mira la **TAE**, no el TIN. El TIN es solo el interés. La TAE mete además las comisiones y el calendario de pagos, y la [Ley 16/2011 de contratos de crédito al consumo (BOE, texto vigente en 2026)](https://www.boe.es/buscar/act.php?id=BOE-A-2011-10970) obliga a indicarla en el contrato y en cualquier anuncio que muestre un tipo de interés o un coste del crédito. Por eso un «0 % de interés» puede tener una TAE que no es cero.
 
 ## 3 compras de Black Friday con números
 
@@ -105,7 +105,7 @@ En enero, Pablo tiene **194,93 € comprometidos antes de empezar el mes**: el *
 ## Qué dice la ley y qué cambia ahora
 
 - **Tienes 14 días para echarte atrás** de un crédito al consumo sin dar explicaciones ni pagar penalización. Lo dice el [artículo 28 de la Ley 16/2011](https://www.boe.es/buscar/act.php?id=BOE-A-2011-10970#a28). Tendrías que devolver el dinero prestado más los intereses de esos días.
-- **Muchos pagos aplazados cortos han estado fuera de esa ley.** Su artículo 3 excluye, entre otros, los créditos sin intereses ni gastos y los que se devuelven en 3 meses o menos con gastos mínimos. Por eso el «paga en 3 plazos» no siempre trae las mismas garantías que un préstamo.
+- **Muchos pagos aplazados cortos han estado fuera de esa ley.** Su artículo 3 excluye, entre otros, los créditos de menos de 200 €, los que no tienen intereses ni gastos y los que se devuelven en 3 meses o menos con gastos mínimos (como mucho, el 1 % de lo prestado). Por eso el «paga en 3 plazos» no siempre trae las mismas garantías que un préstamo.
 - **La UE ha cambiado las reglas.** La [Directiva (UE) 2023/2225 de créditos al consumo](https://eur-lex.europa.eu/eli/dir/2023/2225/oj) se aplica desde el **20 de noviembre de 2026** y mete dentro el «compra ahora, paga después» y los créditos de menos de 200 €. Obliga, por ejemplo, a estudiar si puedes devolver lo que pides. Pero a mediados de noviembre de 2026 España aún no había aprobado la ley que la pasa al derecho español, así que hasta que se publique en el BOE sigue mandando la Ley 16/2011.
 
 ## Antes de darle a «pagar en cuotas»
