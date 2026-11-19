@@ -18,7 +18,7 @@ Formato: `- [ ] Prioridad | palabra clave | título | intención | algo propio |
 - [ ] P2 | presupuesto familiar | Cómo hacer un presupuesto familiar con hijos (ejemplo) | info | ejemplo familia de 4 | presupuesto-ahorro-2027
 - [ ] P3 | regla 50 30 20 ejemplos | Regla 50/30/20 con ejemplos de sueldos de 900 a 2.000 € | info | tabla con 6 sueldos | presupuesto-ahorro-2027
 - [ ] P3 | cuenta remunerada o fondo indexado | ¿Cuenta remunerada o fondo indexado? Para qué sirve cada uno | comparar | tabla comparativa sin recomendar entidades | presupuesto-ahorro-2027
-- [ ] P1 | comprar a plazos black friday | Pagar a plazos en Black Friday y Navidad: cuánto te cuesta de verdad | comparar | tabla con 3 compras a plazos (móvil, tele, regalos) con su coste total y TAE calculados | NUEVO:plan-salir-de-deudas
+- [~] P1 | comprar a plazos black friday | Pagar a plazos en Black Friday y Navidad: cuánto te cuesta de verdad | comparar | tabla con 3 compras a plazos (móvil, tele, regalos) con su coste total y TAE calculados | NUEVO:plan-salir-de-deudas
 - [ ] P2 | tarjeta revolving cuota mínima | Tarjeta revolving: cuánto pagas si solo pagas la cuota mínima | info | ejemplo de 2.000 € con cuota mínima calculado mes a mes (meses e intereses totales) | NUEVO:plan-salir-de-deudas
 - [ ] P2 | cómo repartir gastos en pareja | Cómo repartir los gastos en pareja: 50/50 o proporcional al sueldo | comparar | ejemplo con sueldos de 1.300 y 2.100 € y calculadora de reparto proporcional | NUEVO:reparto-gastos-compartidos
 - [ ] P2 | repartir gastos piso compartido | Cómo repartir los gastos de un piso compartido sin discusiones | info | tabla con 3 compañeros, habitaciones de distinto tamaño y facturas de luz, internet y compra | NUEVO:plantilla-independizarse
