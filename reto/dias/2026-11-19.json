@@ -1,0 +1,17 @@
+{
+ "dia": 4,
+ "total_dias": 30,
+ "ventas_ayer": null,
+ "ingresos_ayer": null,
+ "total": 0,
+ "objetivo_ventas_dia": 2,
+ "racha": 0,
+ "racha_meta": 7,
+ "hoy": [
+  "Publicada guía: cuesta de enero",
+  "Nuevo producto: Objetivos 2027",
+  "Borrador: plazos en Black Friday"
+ ],
+ "pregunta": "¿Cuántas ventas crees que hago hoy?",
+ "nota_total": "(faltan las cifras del 16 al 18/11)"
+}

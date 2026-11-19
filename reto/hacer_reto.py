@@ -119,7 +119,9 @@ def escenas(D):
         k = ease(t / 1.3)
         centered(d, 700, eur(D["total"] * k), F_BIG(180), GREEN)
         centered(d, 950, "ventas de plantillas · todo real", F_MED(46), MUTED)
-        if D.get("ventas_ayer") is None:
+        if D.get("nota_total"):  # p. ej. varios días sin cifras: se dice tal cual
+            centered(d, 1030, D["nota_total"], F_MED(46), MUTED)
+        elif D.get("ventas_ayer") is None:
             centered(d, 1030, "(sin contar ayer: va mañana)", F_MED(46), MUTED)
         return im
 
